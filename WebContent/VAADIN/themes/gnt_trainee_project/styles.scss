@@ -1,0 +1,26 @@
+@import "addons.scss";
+@import "gnt_trainee_project.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in gnt_trainee_project.scss */
+.gnt_trainee_project {
+  @include addons;
+  @include gnt_trainee_project;
+  
+
+
+}
+
+ .v-label-labelstyle {
+     background: none repeat scroll 0 0 #A64D4D  ;
+     border-color: #800000 ;
+     border-image: none;
+     border-left: 1px solid #800000 ;
+     border-radius: 3px 3px 3px 3px;
+     border-right: 1px solid #800000 ;
+     border-style: solid;
+     border-width: 1px;
+
+ }
+
+
